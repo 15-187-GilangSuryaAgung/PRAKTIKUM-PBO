@@ -1,0 +1,10 @@
+jumlah_siswa = int(input("masukkan jumlah siswa : "))
+
+nilai_siswa ={}
+
+for i in range(1, jumlah_siswa + 1):
+    nama = input(f"masukkan nama siswa ke-{i}: ")
+    nilai = int(input(f"masukkan nilai untuk {nama}: "))
+    nilai_siswa[nama] = nilai
+
+    print(nilai_siswa)
